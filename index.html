@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color:  rgb(245, 242, 242);
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    justify-content: center;
+}
+.main-container {
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    justify-content: center;
+    padding: 200px;
+    border-radius: 10px;
+}
+.sign-in-container {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 5px 8px 10px 5px rgba(182, 182, 182, 0.681);
+}
+.hello-container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    background-color: #FB4461;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 8px 10px 5px rgba(182, 182, 182, 0.681);
+    
+}
+
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input {
+    width: 284px;
+    height: 39px;
+    padding: 12px;
+    margin: 15px 8px;
+    border: none;
+    background-color: rgba(240, 233, 233, 0.864);
+}
+button {
+    background-color: #FB4461;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: center;
+}
+button:hover {
+    cursor: default;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2px;
+}
+p {
+    text-align: center;
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="sign-in-container">
+            <form action="#" >
+                <h1 id="h11">Sign Up</h1>
+                <span>Use your email</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <button>Sign In</button>
+
+            </form>
+
+        </div>
+        <div class="hello-container" >
+            <h1>Hello,Friends!</h1>
+            <p>Enter your personal details </p>
+                <p>and start journey with us</p>
+            <button>Sign Up</button>
+
+
+        </div>
+          
+            
+      
+        
+    </div>
+</body>
+</html>
